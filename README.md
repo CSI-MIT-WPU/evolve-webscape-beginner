@@ -2,7 +2,6 @@
 
 Welcome to the DevConnect social media website challenge! This project aims to create a simple yet functional social media interface that allows users to view and create posts, manage their profile, and interact with other users. Your goal is to build an engaging user experience using vanilla JavaScript, HTML, and CSS.
 
-![DevConnect Preview](/preview.png)
 
 ## User Story
 
