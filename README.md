@@ -1,4 +1,4 @@
-# Webscape Challenge (Beginner) 🌐
+# Webscape Challenge (Beginner)
 
 Welcome to the DevConnect social media website challenge! This project aims to create a simple yet functional social media interface that allows users to view and create posts, manage their profile, and interact with other users. Your goal is to build an engaging user experience using vanilla JavaScript, HTML, and CSS.
 
@@ -12,9 +12,9 @@ As a social media user, I want to interact with a simple platform where I can vi
 
 - **Main Feed**: A central area showing posts from users with interaction capabilities
 - **Profile Section**: User profile display with statistics and information
-- **Friends List**: Display of online friends with status indicators
+- **Refined User Experience**: Enhance the existing page to be more appealing
 
-## Things to be Improved
+## Suggested Things to be Improved
 
 ### 1. Additional Pages
 
@@ -71,7 +71,7 @@ Incomplete Elements:
 - Implement better user interaction feedback
 - Enhance the overall user experience
 
-### 7. Creative Freedom
+## Creative Freedom
 
 Feel free to modify and enhance any section of the website, including the navbar and friends list. Use your creativity to make the project stand out by:
 
