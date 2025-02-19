@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevConnect</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-left">
+                <h1 class="logo">DevConnect</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-icons">
+                    <span>🔔</span>
+                    <span>✉️</span>
+                </div>
+                <div class="nav-profile">
+                    <div class="avatar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="app">
+        <div class="layout">
+            <!-- Left Sidebar - Profile Section -->
+            <aside class="sidebar profile-sidebar">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="cover-photo"></div>
+                        <div class="profile-avatar"></div>
+                        <h2>John Developer</h2>
+                        <p>Full Stack Developer</p>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-value">342</span>
+                            <span class="stat-label">Posts</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">1.2k</span>
+                            <span class="stat-label">Friends</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">8.1k</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <div class="post-container">
+                    <div class="post-input">
+                        <textarea placeholder="What's on your mind?"></textarea>
+                        <button id="postBtn">Post</button>
+                    </div>
+                    <div class="posts" id="posts">
+                        <!-- Posts will be added here -->
+                    </div>
+                </div>
+            </main>
+
+            <!-- Right Sidebar - Friends List -->
+            <aside class="sidebar friends-sidebar">
+                <div class="friends-list">
+                    <h3>Friends Online</h3>
+                    <div class="friend">
+                        <div class="friend-avatar"></div>
+                        <span class="friend-name">Sarah Dev</span>
+                        <span class="online-status"></span>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-avatar"></div>
+                        <span class="friend-name">Mike Coder</span>
+                        <span class="online-status"></span>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-avatar"></div>
+                        <span class="friend-name">Alex Designer</span>
+                        <span class="online-status"></span>
+                    </div>
+                    <div class="friend">
+                        <div class="friend-avatar"></div>
+                        <span class="friend-name">Emma Backend</span>
+                        <span class="online-status"></span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
