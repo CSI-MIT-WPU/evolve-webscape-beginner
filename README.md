@@ -10,9 +10,9 @@ As a social media user, I want to interact with a simple platform where I can vi
 
 ## Key Expectations
 
+- **Refined User Experience**: Enhance the existing page to have all necessary functionalities and to be more appealing
 - **Main Feed**: A central area showing posts from users with interaction capabilities
 - **Profile Section**: User profile display with statistics and information
-- **Refined User Experience**: Enhance the existing page to be more appealing
 
 ## Suggested Things to be Improved
 
