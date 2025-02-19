@@ -8,27 +8,13 @@
     --sidebar-width: 300px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Inter, system-ui, -apple-system, sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    padding-top: var(--nav-height);
-}
-
 /* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: var(--nav-height);
+    /* height: var(--nav-height); */
     background: var(--white);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -55,48 +41,12 @@ body {
     font-size: 1.5rem;
 }
 
-.search-bar input {
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 20px;
-    width: 300px;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.nav-icons {
-    display: flex;
-    gap: 1rem;
-    font-size: 1.2rem;
-}
-
 .nav-profile .avatar {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     background: #ddd;
     cursor: pointer;
-}
-
-/* Layout */
-.layout {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    display: grid;
-    grid-template-columns: var(--sidebar-width) 1fr var(--sidebar-width);
-    gap: 2rem;
-}
-
-/* Sidebar Styles */
-.sidebar {
-    position: sticky;
-    top: calc(var(--nav-height) + 2rem);
-    height: fit-content;
 }
 
 /* Profile Card */
@@ -224,10 +174,6 @@ textarea {
     margin-bottom: 1rem;
 }
 
-textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
-}
 
 button {
     background: var(--primary-color);
@@ -300,22 +246,3 @@ button:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .layout {
-        grid-template-columns: 1fr;
-    }
-
-    .sidebar {
-        display: none;
-    }
-
-    .search-bar input {
-        width: 200px;
-    }
-}
-
-@media (max-width: 600px) {
-    .search-bar {
-        display: none;
-    }
-}

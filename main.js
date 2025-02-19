@@ -58,19 +58,6 @@ function renderPosts() {
     postsContainer.innerHTML = posts.map(post => createPostElement(post)).join('');
 }
 
-function addNewPost(content) {
-    const newPost = {
-        id: posts.length + 1,
-        author: 'John Developer',
-        time: 'Just now',
-        content: content,
-        likes: 0,
-        comments: 0
-    };
-    posts.unshift(newPost);
-    renderPosts();
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     const postBtn = document.getElementById('postBtn');
     const textarea = document.querySelector('textarea');
