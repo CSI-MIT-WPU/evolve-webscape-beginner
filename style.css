@@ -14,32 +14,20 @@
     top: 0;
     left: 0;
     right: 0;
-    /* height: var(--nav-height); */
     background: var(--white);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
+    }
 
-.nav-content {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    .nav-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 1rem;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-.logo {
-    color: var(--primary-color);
-    font-size: 1.5rem;
-}
+    }
 
 .nav-profile .avatar {
     width: 35px;
@@ -47,7 +35,7 @@
     border-radius: 50%;
     background: #ddd;
     cursor: pointer;
-}
+} 
 
 /* Profile Card */
 .profile-card {
@@ -112,19 +100,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-}
-
-.friends-list h3 {
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-}
-
-.friend {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 0;
-    position: relative;
-}
+    }
 
 .friend-avatar {
     width: 40px;
@@ -136,7 +112,7 @@
 
 .friend-name {
     font-size: 0.9rem;
-}
+} 
 
 .online-status {
     width: 8px;
